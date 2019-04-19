@@ -1,0 +1,146 @@
+{
+    "data": {
+        "monitors": [
+            {
+                "location": {
+                    "type": "underground",
+                    "geometry": {
+                        "type": "WGS84",
+                        "coordinates": [
+                            16.32,
+                            48.19
+                        ]
+                    },
+                    "properties": {
+                        "location_title": "John F. Kennedy Street",
+                        "municipality": "Awesomeville",
+                        "attributes": {
+                            "platform_id": 4926
+                        }
+                    }
+                },
+                "lines": [
+                    {
+                        "line_name": "Orange Line",
+                        "direction": "East City",
+                        "platform": "1",
+                        "departures": {
+                            "departure": [
+                                {
+                                    "time": {
+                                        "planned": "2019-04-19T12:47:29.000+0200",
+                                        "expected": "2019-04-19T12:47:29.000+0200"
+                                    }
+                                },
+                                {
+                                    "time": {
+                                        "planned": "2019-04-19T12:51:29.000+0200",
+                                        "expected": "2019-04-19T12:51:29.000+0200"
+                                    }
+                                }
+                            ]
+                        },
+                        "type": "metro",
+						"line_id": 303
+                    }
+                ],
+                "attributes": {}
+            },
+            {
+                "location": {
+                    "type": "underground",
+                    "geometry": {
+                        "type": "WGS84",
+                        "coordinates": [
+                            16.36,
+                            48.24
+                        ]
+                    },
+                    "properties": {
+                        "location_title": "North Train Station",
+                        "municipality": "Awesomeville",
+                        "attributes": {
+                            "platform_id": 4402
+                        }
+                    }
+                },
+                "lines": [
+                    {
+                        "line_name": "Green Line",
+                        "direction": "South Train Station",
+                        "platform": "2",
+                        "departures": {
+                            "departure": [
+                                {
+                                    "time": {
+                                        "planned": "2019-04-19T12:49:29.000+0200",
+                                        "expected": "2019-04-19T12:49:29.000+0200"
+                                    }
+                                },
+                                {
+                                    "time": {
+                                        "planned": "2019-04-19T12:53:29.000+0200",
+                                        "expected": "2019-04-19T12:53:29.000+0200"
+                                    }
+                                }
+                            ]
+                        },
+                        "type": "metro",
+						"line_id": 304
+                    }
+                ],
+                "attributes": {}
+            },
+            {
+                "location": {
+                    "type": "underground",
+                    "geometry": {
+                        "type": "WGS84",
+                        "coordinates": [
+                            16.36,
+                            48.24
+                        ]
+                    },
+                    "properties": {
+                        "location_title": "North Train Station",
+                        "municipality": "Awesomeville",
+                        "attributes": {
+                            "platform_id": 4435
+                        }
+                    }
+                },
+                "lines": [
+                    {
+                        "line_name": "Green Line",
+                        "direction": "NO INFORMATION AVAILABLE",
+                        "platform": "1",
+                        "departures": {
+                            "departure": [
+                                {
+                                    "time": {},
+                                    "vehicle": {
+                                        "towards": "NO INFORMATION AVAILABLE",
+                                        "type": "metro",
+										"line_id": 304,
+										"attributes": {}
+									}
+                                }
+                            ]
+                        },
+                        "type": "metro",
+						"line_id": 304
+                    }
+                ],
+                "attributes": {}
+            }
+
+			
+			
+        ]
+    },
+    "message": {
+        "value": "OK",
+        "code": 200,
+        "timestamp": "2019-04-19T12:46:39.982+0200"
+    }
+}
